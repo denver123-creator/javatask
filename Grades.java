@@ -32,6 +32,8 @@ public class Grades {
         int gr = scanner.nextInt();
         if (gr >= 0 && gr <= 100) {
             grades.enterGrade(gr);
+        }else {
+            System.out.println("Grade ranges between 0 and 100 only.");
         }
             scanner.close();
     }
