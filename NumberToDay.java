@@ -1,15 +1,22 @@
-import java.util.Scanner;;
+import java.util.Scanner;
 
 public class NumberToDay {
     
-
     public static void main(String[] args){
-
-  
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter number of day");
-        int days = scanner.nextInt();
+        int days;
+        while (true) {
+            System.out.println("Enter number of days:");
 
+            if (scanner.hasNextInt()) {
+                days = scanner.nextInt();
+                break; 
+            } else {
+                System.out.println("Invalid input. Please enter a valid number.");
+                scanner.next(); 
+            }
+        }
+  
         switch(days){
             case 1: System.out.println("Monday");break;
             case 2: System.out.println("Tuesday");break;
