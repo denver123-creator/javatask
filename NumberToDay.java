@@ -6,7 +6,7 @@ public class NumberToDay {
         Scanner scanner = new Scanner(System.in);
         int days;
         while (true) {
-            System.out.println("Enter number of days:");
+            System.out.println("Enter number of day:");
 
             if (scanner.hasNextInt()) {
                 days = scanner.nextInt();
