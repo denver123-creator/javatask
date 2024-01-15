@@ -1,4 +1,4 @@
-public class Main { 
+public class FindMaxNum { 
  public static void main(String[] args) {
         List<Integer> nums = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
