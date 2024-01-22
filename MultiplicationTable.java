@@ -8,6 +8,7 @@ public class MultiplicationTable {
                 System.out.print(j + "x" + i + "=" + mul + "\t");
             }
             System.out.println();
+            //comment
         }
     }
 }
