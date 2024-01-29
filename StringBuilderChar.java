@@ -22,7 +22,7 @@ public class StringBuilderChar{
             
         };
 
-        StringBuilder www = new StringBuilder("denver publico");
+        StringBuilder www = new StringBuilder("denver a. publico");
         anyWords.stringTenMethods(www);
 
     }
