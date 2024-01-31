@@ -9,7 +9,7 @@ public class DateTask {
 
 // The no-args constructor
 public DateTask() {
-    
+    this(1, 1, 1);
 }
 // Constructor that takes 3 arguments
 public DateTask(int m, int d, int y) {
